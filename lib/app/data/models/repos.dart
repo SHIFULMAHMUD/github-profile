@@ -18,6 +18,7 @@ class Repos {
   }
 
 
+
   Repos.fromJson(Map<String, dynamic> json) {
     name = json['name'];
     html_url = json['html_url'];
