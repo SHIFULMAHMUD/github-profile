@@ -22,6 +22,7 @@ class Repos {
     html_url = json['html_url'];
   }
 
+
   Map<String, dynamic> toJson() {
     final Map<String, dynamic> data = new Map<String, dynamic>();
     data['name'] = this.name;
